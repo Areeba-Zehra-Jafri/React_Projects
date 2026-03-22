@@ -1,0 +1,16 @@
+.UserCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+#Card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#Card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
